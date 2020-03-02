@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Escriba un programa que reciba como entrada las longitudes de los dos catetos 
+        aa y bb de un triángulo rectángulo, y que entregue como salida el largo de la hipotenusa 
+        cc del triángulo, dado por el teorema de Pitágoras.	
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pitagoras.js" ></script>
+    <title>Teorema de Pitágoras</title>
+</head>
+<body>
+    <p>Escriba los dos catetos del triángulo rectángulo</p>
+    <input type="text" placeholder="cateto 1" id="cat1"/>
+    <br/>
+    <br/>
+    <input type="text" placeholder="cateto 2" id="cat2"/>
+    <br/>
+    <br/>
+    <input type="button" value="Enviar" onclick="getHipotenusa();">
+    <p id='hipotenusa'></p>
+</body>
+</html>
